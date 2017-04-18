@@ -1,6 +1,6 @@
 # WiFi Range Extender Config
 
-Copy the `edited/firewall` file to `/etc/config` - replacing the original - to set up your Omega as a range extender. Run `/etc/init.d/firewall restart` for it to take effect.
+Copy the `etc/config/firewall` to the same path on your Omega - replacing the original - to set up your Omega as a range extender. Run `/etc/init.d/firewall restart` for it to take effect.
 
 tl;dr - change this bit:
 ```
